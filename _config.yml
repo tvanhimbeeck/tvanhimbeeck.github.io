@@ -63,7 +63,7 @@ plugins:
 author:
   name   : "Thomas Van Himbeeck"
   avatar : "/assets/images/photo.jpg"
-  bio    : "Physicist in working on Quantum Information theory"
+  bio    : "WEBSITE IN CONSTERUCTION. Physicist in working on Quantum Information theory"
   links:
   #  - label: "Website"
   #    icon: "fas fa-fw fa-link"
@@ -91,17 +91,17 @@ author:
   #     url: "https://instagram.com/"
 
 defaults:
-  # _posts
+  # _articles
   - scope:
       path: ""
-      type: posts
+      type: articles
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
@@ -116,3 +116,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  articles:
+    output: true
+    permalink: /:collection/:path/
