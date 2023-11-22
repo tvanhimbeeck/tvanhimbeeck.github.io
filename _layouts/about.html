@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<!-- <p style="text-align: center">{{ page.intro }}</p> -->
+
+<!-- Research interest -->
+
+{{ content }}
+
+<!-- Short bio -->
+<h2>Short bio</h2>
+<ul class="my-list">
+  {% for item in site.data.short_bio %}
+    <li class="text-marker" marker="{{ item.year }}">{{ item.content }}</li>
+  {% endfor %}
+</ul>
+
+<!-- Selected publications -->
+<h2>Selected publications</h2>
+{% include publication_list.html list_type="selected" %}
+
+<!-- Updates -->
+<h2>Recent updates</h2>
+<ul class="my-list">
+  {% for item in site.data.updates %}
+    <li class="text-marker" marker="{{ item.date }}">{{ item.content }}</li>
+  {% endfor %}
+</ul>

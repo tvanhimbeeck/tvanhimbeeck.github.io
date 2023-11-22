@@ -1,0 +1,76 @@
+# - field: Quantum algorithms
+#   elements:
+#     - authors: M. Nielsen & I. Chuang
+#       name: Quantum Computation and Quantum information
+#       link: https://doi.org/10.1017/CBO9780511976667
+#       comment: A standard textbook
+
+- field: Quantum entropies
+  elements:
+    - authors: E. Carlen
+      name: "Trace Inequalities and Quantum Entropy*"
+      pdf: /assets/documents/EricCarlen.pdf
+      comment: "On the relations between the strong subadditivity, convex and monotone matrix functions, and trace inequalities."
+
+    - authors: M. Tomamichel
+      name: "Quantum Information Processing with Finite Resources*"
+      link: "https://doi.org/10.1007/978-3-319-21891-5"
+      comment: "Quantum (Renyi) divergences and their properties."
+      pdf: "https://doi.org/10.48550/arXiv.1504.00233"
+
+- field: Convex optimisation
+  elements:
+    - authors: S. Boyd & L. Vanderberghe
+      name: "Convex Optimisation"
+      link: "https://doi.org/10.1017/CBO9780511804441"
+      pdf: "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf"
+      comment: "Introduction to convex sets, convex problems, algorithms"
+
+    - authors: Y. Nesterov
+      name: "Lectures on Convex Optimisation*"
+      link: "https://doi.org/10.1007/978-3-319-91578-4"
+      comment: "Interior-point algorithms, self-concordant barriers"
+
+- field: Invariant theory
+  elements:
+    - authors: B. Sturmfels
+      name: "Algorithms in Invariant Theory"
+      link: "https://link.springer.com/book/10.1007/978-3-211-77417-5"
+      comment: On polynomial invariants of groups. A modern treatement of a subject going back to the 19th century. See also <a href="https://www.youtube.com/watch?v=3lH_O5uINXI">this video</a>
+
+- field: Computing
+  elements:
+    - authors: S. Arora & B. Barak
+      name: "Computational Complexity"
+      link: "https://www.cambridge.org/us/catalogue/catalogue.asp?isbn=9780521424264"
+      # comment: "Classic reference in complexity theory, big focus on intuition and general ideas"
+
+- field: Hardware
+  elements:
+    - authors: C. Jerry & P. Knight
+      name: "Introductory Quantum Optics"
+      link: "https://doi.org/10.1017/CBO9780511791239"
+      comment: "Gaussian and non-Gaussian states, phase- vs. Fock-space representation."
+
+    - authors: S. Girvin
+      name: "Circuit QED: superconducting qubits coupled to microwave photons"
+      link: "https://doi.org/10.1093/acprof:oso/9780199681181.003.0003"
+      comment: "I liked this introduction to superconducting circuits. For physicists."
+      pdf: https://academic.oup.com/book/43704/chapter/367194888/chapter-pdf/45138561/acprof-9780199681181-chapter-3.pdf
+
+- field: Scientific writing/careers
+  elements:
+    - authors: S. Montgommery
+      name: "The Chicago Guide to Communicating Science"
+      link: https://press.uchicago.edu/ucp/books/book/chicago/C/bo18111315.html
+      comment: "Passionate reading, conveys a simple message of what is important in scientific writing."
+
+    - authors: F-N. Thomas & M. Turner
+      name: "Clear and Simple as the Truth*"
+      link: https://press.princeton.edu/books/paperback/9780691147437/clear-and-simple-as-the-truth
+      comment: "If you want to know what excellence in scientific writing looks like. NB: Hard to apply!"
+
+    - authors: P. Feibelman
+      name: "A PhD Is Not Enough! A Guide to Survival in Science"
+      link: https://www.hachettebookgroup.com/titles/peter-j-feibelman/a-phd-is-not-enough/9780465025336/?lens=basic-books
+      comment: "Nicely written, relevant for math-physics related fields"

@@ -1,0 +1,18 @@
+firstname: Thomas
+lastname: Van Himbeeck
+biorecap: Postdoctoral researcher in quantum information theory
+
+profile_links:
+  - icon: fa-solid fa-lightbulb
+    name: QURIOSITY group
+    link: https://iqa.telecom-paris.fr/
+  - icon: fa-solid fa-building
+    name: Télécom Paris, France
+  - icon: fa-solid fa-envelope
+    name: (firstname).vanhimbeeck<br>@telecom-paris.fr
+  - icon: fa-solid fa-graduation-cap
+    name: Google scholar
+    link: https://scholar.google.com/citations?user=R3jaUGgAAAAJ&hl=fr&oi=ao
+  - icon: fa-brands fa-square-github
+    name: Github
+    link: https://www.github.com/tvanhimbeeck

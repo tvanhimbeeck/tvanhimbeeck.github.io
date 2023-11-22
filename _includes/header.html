@@ -1,0 +1,13 @@
+<nav>
+  <ul class="nav-menu">
+    {% for item in site.data.nav %}
+    <li class="nav-item">
+      {% if item.link == page.permalink %}
+        <a class="current" href="{{ item.link }}" >{{ item. name }}</a>
+      {% else %}
+        <a href="{{ item.link }}">{{ item. name }}</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
