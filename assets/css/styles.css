@@ -165,6 +165,26 @@ ul.my-list li {
   padding-bottom: 0.5em;
 }
 
+ul.dated-list {
+  margin-left: 6em;
+  margin-top: 0.2em;
+  margin-bottom: 0;
+}
+ul.dated-list li {
+  margin-left: 0;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.date {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: left;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+  font-family: monospace;
+}
+
 /* Bio elements*/
 li.text-marker::marker {
   content: attr(marker);
