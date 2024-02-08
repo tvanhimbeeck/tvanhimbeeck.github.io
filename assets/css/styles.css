@@ -179,7 +179,7 @@ ul.dated-list li {
 .date {
   left: calc(var(--fa-li-width, 2em) * -1);
   position: absolute;
-  text-align: left;
+  text-align: right;
   width: var(--fa-li-width, 2em);
   line-height: inherit;
   font-family: monospace;
